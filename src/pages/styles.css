@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+h1 {
+  color: #0c3553; /* Azul */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Container Styling */
+.form-container, .consulta-container, .gestion-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Inputs */
+input[type="text"], input[type="number"], select, input[type="date"] {
+  width: 98%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #0c3553; /* Azul */
+  color: #FFFFFF; /* Blanco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c2713; /* Marrón */
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0c3553; /* Azul */
+  color: #FFFFFF; /* Blanco */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Additional styling for buttons in table */
+button {
+  margin-right: 10px;
+}

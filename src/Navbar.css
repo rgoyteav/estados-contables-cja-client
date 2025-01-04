@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0c3553; /* Azul */
+  padding: 1rem 2rem;
+  color: #FFFFFF; /* Blanco */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px; /* Tamaño de la imagen */
+  height: 50px;
+  margin-right: 1rem; /* Espaciado entre la imagen y el texto */
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #FFFFFF; /* Blanco */
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #3c2713; /* Marrón */
+}
